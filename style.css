@@ -1,0 +1,62 @@
+/* style.css */
+
+/* General Reset and Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Section */
+header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header img {
+  height: 60px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Navigation */
+nav {
+  background-color: #007bff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Task Card Sections */
+.task-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px auto;
+  gap: 20px;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;}
